@@ -28,9 +28,10 @@
         <section class="hero" id="about">
             <div class="container hero-grid">
                 <div class="hero-content">
-                    <div class="badge"><i class="fas fa-check-circle"></i>Доступен для заказов</div> <!--Сигнальный чек-->
-                    <h1>Верстаю <span>сайты</span> на HTML/CSS</h1>
-                    <p>Аккуратная, семантическая и адаптивная верстка. Превращаю макеты в живой, отзывчивый код.</p>
+                    <div class="badge"><i class="fas fa-check-circle"></i>Не доступен для заказов</div> <!--Сигнальный чек-->
+                    <h1>Верстка <span>сайтов</span> на HTML/CSS</h1>
+                    <h2>Аккуратная, семантическая и адаптивная верстка.</h2>
+                    <p>Превращаю макеты в живой, отзывчивый код.</p>
                     <div class="hero-stats">
                         <div><span class="num">1</span><span class="label"> год опыта</span></div>
                         <div><span class="num">10+</span><span class="label"> проектов</span></div>
@@ -70,6 +71,7 @@
         <!--Проекты-->
 
         <section class="projects" id="projects">
+            <h2></h2> 
             <div class="container">
                 <div class="section-title">
                     <i class="fas fa-folder-open"></i> Последние работы
@@ -85,28 +87,70 @@
                         <h3>Лендинг "Фриланс"</h3>
                         <p>Чистая, быстрая страница для портфолио с анимациями и формами.</p>
                         <div class="project-tags"><span>HTML5</span><span> CSS3</span><span> Flex</span></div>
+                    </div>
 
-                        <div>
-                            <div class="project-item">
-                                <div class="icon-wrap"><i class="fas fa-store-alt"></i></div>
-                                <h3>Интернет-магазин</h3>
-                                <p>Каталог товаров, корзина, сетка карточек - полностью адаптивно.</p>
-                                <div class="project-tags"><span>Grid</span><span> SCSS</span><span> BEM</span></div>
-                            </div>
+                    <div>
+                        <div class="project-item">
+                            <div class="icon-wrap"><i class="fas fa-store-alt"></i></div>
+                            <h3>Интернет-магазин</h3>
+                            <p>Каталог товаров, корзина, сетка карточек - полностью адаптивно.</p>
+                            <div class="project-tags"><span>Grid</span><span> SCSS</span><span> BEM</span></div>
+                        </div>
 
-                            <div class="project-item">
-                                <div class="icon-wrap"><i class="fas fa-newspaper"></i></div>
-                                <h3>Блог/портал</h3>
-                                <p>Статьи, боковая панель, пагинация - семантическая верскта.</p>
-                                <div class="project-tags"><span>HTML5</span><span> CSS3</span><span> Медиазапросы</span></div>
-                            </div>
+                        <div class="project-item">
+                            <div class="icon-wrap"><i class="fas fa-newspaper"></i></div>
+                            <h3>Блог/портал</h3>
+                            <p>Статьи, боковая панель, пагинация - семантическая верскта.</p>
+                            <div class="project-tags"><span>HTML5</span><span> CSS3</span><span> Медиазапросы</span></div>
                         </div>
                     </div>
-                </div>      <!--Проверить на корректность div. Возможно что лишний есть-->
-            </div>
+                </div>
+            </div>      
+            
         </section>
 
+        <!--Отзывы-->
+
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section-title">
+                    <i class="fas fa-comments-dots"></i>Отзывы заказчиков
+                </div>
+
+                <div class="section-sub">
+                    <i class="fas fa-arrow-right"></i>Меня рекомендуют как надежного верстальщика
+                </div>
+
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Все сделано быстро, аккуратно, адаптив просто идеальный. Очень довольна!</p>
+                        <div class="author">Анна К.</div>
+                        <div class="role">Дизайнер</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Отличная работа с кодом. Соблюдены все требования и проработаны все мелочи.</p>
+                        <div class="author">Михаил Р.</div>
+                        <div class="role">Руководитель проекта</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Быстрое понимание задачи, отличная коммуникация. Рекомендую!</p>
+                        <div class="author">Ольга С.</div>
+                        <div class="role">владелец бизнеса</div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer id="footer"></footer>
+
+    <script src="js/main.js"></script>
+
 
 </body>
 </html>
