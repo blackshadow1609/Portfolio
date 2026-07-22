@@ -11,6 +11,7 @@ body {
     color: #1e1e2a;
     line-height: 1.5;
     scroll-behavior: smooth;
+    padding-top: 80px;
 }
 
 /*Проверить необходимость в а{}*/
@@ -24,15 +25,19 @@ a {
     margin: 0 auto;
     padding: 0 24px;
 }
-/* ---------- HEADER / НАВИГАЦИЯ ---------- */
+/* ---------- header / навигация ---------- */
 .header {
-    background: #ffffff;
+    background: linear-gradient(135deg, #d9d4ed, #b7b2d4);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 10;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
     padding: 16px 0;
     border-bottom: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
 }
 
     .header .container {
@@ -260,7 +265,6 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
     margin-top: 15px;
-    /*margin: 30px;*/
 }
 
 .project-item {
@@ -354,7 +358,7 @@ a {
         font-size: 0.85rem;
         color: #63607e;
     }
-/* ---------- FOOTER ---------- */
+/* ---------- footer ---------- */
 .footer {
     padding: 40px 0 30px;
     background: #1c1b2a;
